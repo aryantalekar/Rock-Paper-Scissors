@@ -1,0 +1,94 @@
+.container {
+    height: 95vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid #add8e6; /* Light Blue */
+    border-radius: 100px;
+}
+
+.images {
+    border: 10px solid #add8e6; /* Light Blue */
+    border-radius: 100px;
+    height: 250px;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    position: fixed;
+}
+
+#rockimg, #paperimg, #scissorimg {
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#rockimg:hover, #paperimg:hover, #scissorimg:hover {
+    height: 250px;
+}
+
+#rockimg:active, #paperimg:active, #scissorimg:active {
+    height: 250px;
+}
+
+#newGame {
+    transition: 0.5s;
+}
+
+#newGame:hover {
+    box-shadow: 0 0 20px rgba(255, 182, 193, 0.7); /* Light Pink */
+    height: 90px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 525px;
+    font-size: 2em;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    position: fixed;
+}
+
+.scores {
+    border: 5px solid #fff68f; /* Light Yellow */
+    border-radius: 100px;
+    padding: 13px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 500px;
+    margin-bottom: 425px;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    position: fixed;
+}
+
+#newGame {
+    border: 5px solid #add8e6; /* Light Blue */
+    border-radius: 100px;
+    padding: 13px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 500px;
+    margin-bottom: 325px;
+    height: 80px;
+    width: 280px;
+    text-align: center;
+    position: fixed;
+}
+
+.result {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    margin-bottom: 375px;
+    margin-left: 250px;
+}
